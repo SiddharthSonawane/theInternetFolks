@@ -4,13 +4,13 @@ import { Navbar, Home, Features, Cta, Footer } from "./components";
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Navbar />
       <Home />
       <Features />
       <Cta />
       <Footer />
-    </Router>
+    </>
   );
 };
 

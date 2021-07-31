@@ -24,7 +24,7 @@ export const NavLogo = styled.div`
   }
 `;
 
-export const Logo = styled(Link)`
+export const Logo = styled.div`
   color: #fff;
   cursor: pointer;
   position: fixed;

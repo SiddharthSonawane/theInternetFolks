@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavLogo>
-        <Logo to="/">
+        <Logo>
           <Svg />
         </Logo>
       </NavLogo>
