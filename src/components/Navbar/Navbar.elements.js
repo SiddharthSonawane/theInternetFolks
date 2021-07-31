@@ -70,7 +70,6 @@ export const NavMenu = styled.div`
   background-color: #232127;
   border-radius: 10px;
   @media screen and (min-width: 1000px) {
-    background-color: #fff;
     display: flex;
     flex-wrap: no-wrap;
     list-style: none;
