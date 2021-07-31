@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Nav = styled.div`
   position: fixed;
@@ -97,7 +96,7 @@ export const NavItem = styled.li`
   }
 `;
 
-export const NavLink = styled(Link)`
+export const NavLink = styled.a`
   font-size: 1.5rem;
   color: #bfbfbf;
   text-align: center;
@@ -105,6 +104,7 @@ export const NavLink = styled(Link)`
   padding: 2rem;
   width: 100;
   display: block;
+  cursor: pointer;
   &:hover {
     color: #3b3054;
   }

@@ -17,12 +17,11 @@ import {
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handelClick = () => {
-    let clickTrue;
     setClick((prev) => {
       if (prev === false) {
-        return (clickTrue = true);
+        return true;
       } else {
-        return (clickTrue = false);
+        return false;
       }
     });
   };
@@ -54,9 +53,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-//<Svg />/* <NavItem>
-// {/* <NavLink>Pricing</NavLink>
-// </NavItem>
-// <NavItem>
-//   <NavLink>Resources</NavLink>
-// </NavItem> */ */}

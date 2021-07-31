@@ -5,7 +5,6 @@ import {
   AllFeatures,
   FooterDiv,
   IconDiv,
-  SvgImg,
   FooterHeading,
   SubItems,
 } from "./Footer.elements";

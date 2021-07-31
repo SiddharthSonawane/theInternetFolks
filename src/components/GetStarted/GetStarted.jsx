@@ -1,7 +1,5 @@
 import axios from "axios";
-import * as ReactSpinner from "react-bootstrap";
-
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Container,
   Button,
@@ -16,7 +14,6 @@ const GetStarted = () => {
   const [shortLink, setShortLink] = useState("");
   const [loading, setLoading] = useState(false);
   const [display, setDisplay] = useState(true);
-  const [wait, setWait] = useState("");
 
   async function handleClick() {
     await axios
@@ -28,10 +25,6 @@ const GetStarted = () => {
           setShortLink(response.data.result.full_short_link);
           setLoading(true);
         }
-      })
-      .then(() => {
-        //setWait("Please Wait while we fetch your short link");
-        console.log("wating");
       })
       .catch((error) => {
         console.log(error);
@@ -65,7 +58,6 @@ const GetStarted = () => {
         </>
       ) : (
         <>
-          <Content>{wait}</Content>
           <Button onClick={handleDisplay}>Short Again</Button>
         </>
       )}
@@ -85,9 +77,3 @@ const GetStarted = () => {
 };
 
 export default GetStarted;
-
-{
-  /* <Link href={shortLink} target="_blank">
-            Your Link {shortLink}
-          </Link> */
-}
