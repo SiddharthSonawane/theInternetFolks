@@ -7,6 +7,7 @@ export const Nav = styled.div`
   z-index: 1;
   height: 12vh;
   @media screen and (min-width: 768px) {
+    background-color: #fff;
     display: flex;
     width: 100%;
     height: auto;
@@ -70,6 +71,7 @@ export const NavMenu = styled.div`
   background-color: #232127;
   border-radius: 10px;
   @media screen and (min-width: 1000px) {
+    background-color: #fff;
     display: flex;
     flex-wrap: no-wrap;
     list-style: none;
