@@ -45,15 +45,15 @@ export const CtaButton = styled.button`
   padding: 3%;
 
   border-radius: 50px;
-  background-color: #fff;
-  color: #bfbfbf;
+  background-color: #2acfcf;
+  color: black;
+  transition: all 0.5s;
   &:hover {
     color: #3b3054;
-    background-color: cyan;
+    background-color: #fff;
   }
 
   @media screen and (min-width: 768px) {
-    background-color: blue;
     width: 300px;
     height: auto;
     padding: 1%;

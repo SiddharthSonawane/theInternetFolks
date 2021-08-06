@@ -51,8 +51,10 @@ export const Button = styled.button`
   border: 2px #2acfcf solid;
   outline: #2acfcf;
   background-color: #fff;
+  transition: all 0.5s;
   &:hover {
     background-color: #2acfcf;
+    color: #fff;
     cursor: pointer;
   }
   @media screen and (min-width: 768px) {

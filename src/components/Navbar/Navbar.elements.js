@@ -163,7 +163,7 @@ export const Login = styled(Button)`
   background-color: #fff;
   color: #232127;
   border: 2px #2acfcf solid;
-  transition: border 1sec;
+  transition: all 0.5s;
   &:hover {
     color: #fff;
     background-color: #232127;
@@ -176,6 +176,7 @@ export const SignUp = styled(Button)`
   background: #2acfcf;
   color: #fff;
   border: 2px #2acfcf solid;
+  transition: all 0.5s;
   &:hover {
     color: #3b3054;
     background-color: #fff;
