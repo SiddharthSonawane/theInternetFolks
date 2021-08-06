@@ -11,8 +11,7 @@ export const Container = styled.div`
   padding: 5% 7%;
   width: auto;
   height: auto;
-  background-color: #232127;
-  /* #2acfcf; */
+  background-color: rgb(59, 48, 84);
   border-radius: 30px;
   @media screen and (min-width: 768px) {
     display: flex;
@@ -51,6 +50,7 @@ export const Button = styled.button`
   border: 2px #2acfcf solid;
   outline: #2acfcf;
   background-color: #fff;
+  color: rgb(59, 48, 84);
   transition: all 0.5s;
   &:hover {
     background-color: #2acfcf;

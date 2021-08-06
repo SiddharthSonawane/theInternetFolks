@@ -13,7 +13,7 @@ export const Feature = styled.div`
     flex-wrap: wrap;
     width: 100%;
     height: 60%;
-    padding-top: 15%;
+    padding-top: 13%;
     justify-content: space-around;
   }
 `;
@@ -22,7 +22,7 @@ export const FeatureHeadingContainer = styled.div`
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column;
-    margin: 3% 0;
+    margin: 1% 0;
   }
 `;
 
@@ -48,7 +48,8 @@ export const Div = styled.div`
 
   @media screen and (min-width: 768px) {
     height: auto;
-    padding: 1%;
+    padding: 3%;
+    margin: 0 3%;
   }
 `;
 
@@ -69,6 +70,7 @@ export const SubDiv = styled.div`
     width: 100px;
     height: 100px;
     padding: 10%;
+    margin: 1%;
   }
 `;
 
